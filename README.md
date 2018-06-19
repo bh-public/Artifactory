@@ -24,3 +24,5 @@ Start
 -service artifactory start
 Stop
 -service artifactory start
+
+Note: from Bill, jfrog_install.sh is service also
