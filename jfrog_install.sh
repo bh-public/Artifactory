@@ -20,7 +20,7 @@ else
 fi
 
 #sudo wget wget -e https_proxy=$PROXY_ADDRESS https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
-sudo wget -e https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
+sudo wget https://bintray.com/jfrog/artifactory-rpms/rpm -O bintray-jfrog-artifactory-rpms.repo
 sudo mv bintray-jfrog-artifactory-rpms.repo /etc/yum.repos.d/
 
 # Warning. We are going to install version 5.11. Latest versions works fine as well but we need to fix a Cross-Site Request Forgery for admin 
